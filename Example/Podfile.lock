@@ -1,0 +1,14 @@
+PODS:
+  - SGSStaggeredFlowLayout (0.0.1)
+
+DEPENDENCIES:
+  - SGSStaggeredFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  SGSStaggeredFlowLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SGSStaggeredFlowLayout: a5c8fe0db07cbd440a6c12118633ed015622123a
+
+COCOAPODS: 0.19.1
