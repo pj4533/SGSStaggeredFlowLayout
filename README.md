@@ -10,6 +10,17 @@ UICollectionViewFlowLayout subclass for staggering cells.
 
 ## Instructions
 
+#### Install
+Available on CocoaPods, simply add to your Podfile:
+
+```
+pod "SGSStaggeredFlowLayout"
+```
+
+then do a 'pod install'
+
+#### Code
+
 (See example for full source)
 
 ``` objective-c
