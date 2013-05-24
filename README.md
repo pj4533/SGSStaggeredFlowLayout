@@ -4,7 +4,9 @@ UICollectionViewFlowLayout subclass for staggering cells.
 
 ## Screenshots
 
-![Screenshot](Screenshots/even.png "Screenshot") ![Screenshot](Screenshots/centered.png "Screenshot")
+![Screenshot](Screenshots/even.png "Screenshot") 
+
+![Screenshot](Screenshots/centered.png "Screenshot")
 
 ## Instructions
 
