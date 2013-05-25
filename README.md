@@ -4,7 +4,11 @@ UICollectionViewFlowLayout subclass for staggering cells.
 
 ## Screenshots
 
+SGSStaggeredFlowLayoutMode_Even:
+
 ![Screenshot](Screenshots/even.png "Screenshot") 
+
+SGSStaggeredFlowLayoutMode_Centered:
 
 ![Screenshot](Screenshots/centered.png "Screenshot")
 
