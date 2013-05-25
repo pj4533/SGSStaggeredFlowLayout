@@ -64,7 +64,7 @@
     if (self.layoutMode == SGSStaggeredFlowLayoutMode_Even) {
         for (NSMutableArray* thisRow in rows) {
             NSInteger rowWidth = [self getWidthOfRow:thisRow];
-            CGFloat perItemWidthDifference = (rect.size.width - self.sectionInset.left - self.sectionInset.right - rowWidth) / thisRow.count;
+            CGFloat perItemWidthDifference = (self.collectionView.frame.size.width - self.sectionInset.left - self.sectionInset.right - rowWidth) / thisRow.count;
             
             NSInteger currentXOffset = self.sectionInset.left;
             for (UICollectionViewLayoutAttributes* attrs in thisRow) {
@@ -79,7 +79,7 @@
     } else if (self.layoutMode == SGSStaggeredFlowLayoutMode_Centered) {
         for (NSMutableArray* thisRow in rows) {
             NSInteger rowWidth = [self getWidthOfRow:thisRow];
-            NSInteger margin = (rect.size.width - rowWidth) / 2;
+            NSInteger margin = (self.collectionView.frame.size.width - rowWidth) / 2;
             NSInteger currentXOffset = margin;
             for (UICollectionViewLayoutAttributes* attrs in thisRow) {
                 CGRect f = attrs.frame;
